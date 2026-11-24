@@ -1,0 +1,17 @@
+.header {
+    color:darkgreen;
+    text-align:center;
+    font-size:24px;
+#p{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+}
+
+#logo{
+
+}
+
