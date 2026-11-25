@@ -4,17 +4,24 @@
         <meta charset="UTF-8">
         <meta name="author" content="D.Sprukta-Mahmudova">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mans Portfolio/My Portfolio</title>
+        <title>My Portfolio</title>
         <link rel="stylesheet" href="css/cv.css">
     </head>
     <body>
         <header class="header">
+                <nav class="navi">
+            <p><a href="#about">About me</a></p>  
+            <p><a href="#skills">Skills</a></p>
+            <p><a href="#projects">Projects</a></p>
+            <p><a href="#contact">Contact</a></p>
+    </nav>  
             <img src="css/logo.png" alt="green_city" id="logo" >
-            <h1>Prieks Tevi redzēt!/ Happy to see you!</h1>
-            <div class="teksts">
-            <p>Mani aizrauj IT un web izstrāde, iespēja mācīties, 
-                radīt un pārvērst idejas digitālos risinājumos. Apskati 
-                tālāk un iepazīsti manus darbus, prasmes un izaugsmi.
+            <h1>Happy to see you!</h1>
+            <div class="text">
+            <p>I enjoy exploring new ideas and finding creative ways 
+                to bring them to life. Every new experience helps me 
+                build confidence, improve my knowledge, and grow in 
+                the world of web development.
             </p>
             <p>I’m passionate about IT and web development, learning, 
             creating, and turning ideas into digital solutions. 
@@ -24,22 +31,18 @@
             
         </header>
 
-        <nav class="navi">
-            <p><a href="#about">Par mani/About me</a></p>  
-            <p><a href="#skills">Prasmes/Skills</a></p>
-            <p><a href="#projects">Projekti/Projects</a></p>
-            <p><a href="#contact">Kontakti/Contact</a></p>
-    </nav>    
+      
     <main>
-        <h2 id="about">Par mani/About me</h2>
-        <div class="teksts">
-        <p>Mani interesē IT un web izstrāde, īpaši iespēja apvienot 
-            tehnoloģijas ar radošumu un dizainu. Man patīk apgūt 
-            jaunas prasmes, risināt problēmas un pārvērst idejas 
-            praktiskos, lietotājam ērtos risinājumos. Šobrīd turpinu 
-            pilnveidot savas zināšanas un gūt praktisku pieredzi, ar 
-            katru projektu sperot soli tālāk savā profesionālajā 
-            attīstībā.
+        <h2 id="about">About me</h2>
+        <div class="text">
+        <p>I see every challenge as an opportunity to improve and 
+            discover something new. I enjoy working on projects 
+            that allow me to think creatively, experiment with 
+            ifferent solutions, and develop both my technical 
+            nd problem-solving skills. My goal is to continue 
+            building practical experience, expand my knowledge 
+            of web development, and become more confident with 
+            every project I create.
         </p>
         <p>
           I’m interested in IT and web development, especially in 
@@ -52,11 +55,12 @@
         </p>
         </div>
         <hr>
-        <h2 id="skills">Prasmes/Skills</h2>
-        <div class="teksts"> 
-        <p> Manas prasmes veidojas, apvienojot teorētiskās zināšanas 
-            ar praktisku darbošanos. Ar katru projektu mācos ko jaunu 
-            un pilnveidoju jau apgūto.
+        <h2 id="skills">Skills</h2>
+        <div class="text"> 
+        <p> I enjoy improving my technical skills through practice 
+            and exploring new ways to solve problems. My goal is to 
+            keep developing my knowledge and become more confident 
+            with the tools and technologies I use.
         </p>
         <ul>
             <li>HTML</li>
@@ -69,13 +73,13 @@
         </p>
         </div>
         <hr>
-        <h2 id="projects">Projekti/Projects</h2>
-        <div class="teksts">
-        <p> Projektos Bean & Bloom, Greenly un 
-            Wanderly praktiski izmantoju savas HTML, 
-            CSS un JavaScript zināšanas, veidojot 
-            responsīvas un interaktīvas mājaslapas, 
-            vienlaikus attīstot prasmes darbā ar Git un GitHub.
+        <h2 id="projects">Projects</h2>
+        <div class="text">
+        <p> Each project gives me an opportunity to experiment with 
+            different layouts, designs, and functionality while improving
+             my understanding of web development. I enjoy seeing how an 
+             idea develops step by step into a complete website and using 
+             each project to strengthen my practical skills.
         </p>
         <p>In the Bean & Bloom, Greenly, and Wanderly projects, 
             I practically applied my HTML, CSS, and JavaScript 
@@ -84,27 +88,27 @@
         </p>
         </div>
         <hr>
-        <h2 id="contact">Kontakti/Contact me</h2>
-        <div class="teksts">
-        <p>Ja vēlies sazināties, vari izmantot e-pastu vai 
-            sociālos tīklus. Esmu atvērta sadarbībai un 
-            jauniem izaicinājumiem.</p>
+        <h2 id="contact">Contact me</h2>
+        <div class="text">
+        <p>I’m always happy to connect, exchange ideas, and discover new opportunities. 
+            Feel free to reach out if you would like to work together, discuss a project, 
+            or simply learn more about my work.</p>
         <p>If you would like to get in touch, you can use 
             email or social media. I am open to collaboration and new challenges.</p>
         </div>
         <form method="post" enctype="text/plain">
             <fieldset>
-                <legend>Nosūti man ziņu/Contact me</legend>
-<label for="name">Vārds/Name: </label>
+                <legend>Contact me</legend>
+<label for="name">Name: </label>
             <input type="text" id="name" name="name" required><br><br>
 
-            <label for="email">E-pasts/Email:</label>
+            <label for="email">Email:</label>
             <input type="email" id="email" name="email" required><br><br>
 
-            <label for="message">Ziņa/Message:</label><br>
+            <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
 
-            <input type="submit" value="Sūtīt/Send">
+            <input type="submit" value="Send">
 
             </fieldset>
         </form>

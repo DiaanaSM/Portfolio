@@ -8,14 +8,14 @@
     max-height:50%;
 }
 
-.teksts{
+.text{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items:flex-start;
     gap:20px;
-    color:black
-    font: size 20px;
+    color:black;
+    font-size:20px;
     margin:10px;
     padding:10px;
 }
